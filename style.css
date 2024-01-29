@@ -46,6 +46,8 @@ header {
 }
 
 .section1 {
+    display: flex;
+    justify-content: end;
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -54,6 +56,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 2rem;
+    gap: 1rem;
 }
 
 .section1_img_items {
