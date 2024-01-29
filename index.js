@@ -1,4 +1,4 @@
-document.getElementById(`header`).innerHTML = `    <header>
+document.getElementById(`header`).innerHTML = `
 <div>
     <a href="index.html">
         <p class="logo">oralox</p>
@@ -10,8 +10,7 @@ document.getElementById(`header`).innerHTML = `    <header>
         <li class="nav_items"> <a href="about.html">About</a></li>
         <li class="nav_items"> <a href="contact.html">Contact</a</li>
     </ul>
-</div>
-</header>` ;
+</div>` ;
 
 
 document.getElementById(`footer`).innerHTML = `<footer>
