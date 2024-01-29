@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D1E21;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.logo {
+    color: white;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+.nav_item {
+    padding-top: 3rem;
+}
+
+.nav_items {
+    display: inline-block;
+    color: #AAAAAA;
+    padding-right: 2rem;
+}
+
+
+.bootstrap5alpa {
+    display: flex;
+    max-width: 1180px;
+    margin: 10rem auto;
+    padding-left: 20rem;
+}
+
+.bootstrap5alpa_p {
+    color: white;
+    font-size: 4rem;
+    width: 900px;
+    font-weight: 500;
+}
+
+.section1 {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section1_img_item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 2rem;
+}
+
+.section1_img_items {
+    width: 200px;
+    height: 150px;
+}
+
+.section2 {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-bottom: 5rem;
+}
+
+.section2_head {
+    padding-top: 5rem;
+}
+
+.section2_head_p1 {
+    color: #AAAAAA;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section2_head_p2 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+.section2_item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.section2_items {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+
+}
+
+.section2_items_img {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 3rem;
+}
+
+.section3 {
+    padding-top: 5rem;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-bottom: 5rem;
+}
+
+.section3_items {
+    padding-top: 3rem;
+}
+
+.section3_img {
+    height: 900px;
+    width: 600px;
+}
+
+.section3_p1 {
+    color: #AAAAAA;
+    font-size: 2rem;
+}
+
+.section3_p2 {
+    color: white;
+    font-size: 4rem;
+}
+
+.section3_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+.footer_item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4rem;
+    padding-top: 5rem;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+
+
+}
+
+
+.footer_item_p {
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer_finish{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.footer_finish_p{
+    text-align: center;
+    color: #AAAAAA;
+    font-size: 2rem;
+}
